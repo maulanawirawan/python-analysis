@@ -1,1 +1,2 @@
-
+import copy_of_proyek_analisis_data
+copy_of_proyek_analisis_data.run_analysis()
