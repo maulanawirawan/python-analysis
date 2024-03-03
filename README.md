@@ -1,34 +1,30 @@
-```markdown
-# Analisis Data Udara ✨
+# Proyek Analisis Data: Air Quality Dataset
 
-Proyek ini adalah analisis data kualitas udara dengan Python dan visualisasi data dengan Streamlit.
+## Deskripsi Proyek
+Proyek ini bertujuan untuk menganalisis dataset kualitas udara dan mengeksplorasi hubungan antara suhu dan partikel PM2.5. Selain itu, proyek ini juga mencakup visualisasi tren kualitas udara sepanjang waktu dan pengelompokan data berdasarkan suhu dan PM2.5 menggunakan algoritma KMeans.
 
-## Setup Environment
+## Penulis
+- **Nama:** Maulana Wirawan
+- **Email:** awan.maraikoh@gmail.com
+- **ID Dicoding:** Maulana Wirawan
 
-Pertama, buat environment baru dengan conda:
+## Packages/Library yang Digunakan
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- google.colab
+- scipy.stats
+- sklearn.cluster
 
-```bash
-conda create --name analisis-data-udara python=3.9
-```
+## Metodologi
+Proyek ini melibatkan beberapa tahapan, yaitu:
+1. **Data Wrangling:** Proses ini melibatkan pengumpulan data, penilaian data awal, dan pembersihan data.
+2. **Exploratory Data Analysis (EDA):** Pada tahap ini, dilakukan perhitungan koefisien korelasi Pearson antara suhu dan PM2.5 dan visualisasi tren kualitas udara sepanjang waktu.
+3. **Clustering:** Menggunakan algoritma KMeans untuk mengelompokkan data berdasarkan suhu dan PM2.5.
 
-Aktifkan environment yang baru dibuat:
+## Hasil
+Hasil dari proyek ini mencakup koefisien korelasi Pearson antara suhu dan PM2.5, visualisasi tren kualitas udara sepanjang waktu, dan visualisasi hasil clustering berdasarkan suhu dan PM2.5.
 
-```bash
-conda activate analisis-data-udara
-```
-
-Kemudian, instal semua library yang diperlukan:
-
-```bash
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
-```
-
-## Menjalankan Aplikasi Streamlit
-
-Setelah menginstal semua library, Anda bisa menjalankan aplikasi Streamlit dengan perintah berikut:
-
-```bash
-streamlit run dashboard.py
-```
-
-
+## Catatan
+Proyek ini masih dalam tahap pengembangan dan akan terus diperbarui dengan analisis dan visualisasi tambahan.
