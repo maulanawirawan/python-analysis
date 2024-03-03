@@ -28,10 +28,7 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 Setelah menginstal semua library, Anda bisa menjalankan aplikasi Streamlit dengan perintah berikut:
 
 ```bash
-streamlit run app.py
+streamlit run dashboard.py
 ```
 
-Selamat menganalisis data!
-```
 
-Harap dicatat bahwa Anda perlu mengganti `app.py` dengan nama berkas Python yang berisi kode Streamlit Anda. Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya. 😊
