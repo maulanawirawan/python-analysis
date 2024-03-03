@@ -1,5 +1,3 @@
-Tentu, berikut adalah berkas `README.md` yang telah disesuaikan dengan proyek analisis data Anda:
-
 ```markdown
 # Analisis Data Udara ✨
 
